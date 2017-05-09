@@ -1,0 +1,184 @@
+{
+  "projects": [{
+    "title" : "Tribute Page",
+    "number" : 1,
+    "author" : "Dwight LaGrone",
+    "description" : "First Free Code Project is to create a Tribute Page.  I chose Jackie Robinson.",
+    "image" : "robinson.jpg",
+    "url" : "http://codepen.io/dlagrone/full/JRGrWJ/",
+    "git" : "https://gist.github.com/dwightlagrone1971/37df858378f8ed81a61901107404e6a3",
+    "tools" : ["HTML", "CSS"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+
+  {
+    "title" : "Random Quote",
+    "number" : 2,
+    "author" : "Dwight LaGrone",
+    "description" : "This a random base quote app.",
+    "image" : "baseball-quotes.jpg",
+    "url" : "http://codepen.io/dlagrone/full/LRzYvR/",
+    "git" : "https://gist.github.com/dwightlagrone1971/88a1b34e38456734ad4f7958def8a3ae",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+
+  {
+    "title" : "Local Weather",
+    "number" : 3,
+    "author" : "Dwight LaGrone",
+    "description" : "Third project is to use any weather api and show the local weather in celsius and fahrenheit",
+    "image" : "weather.jpg",
+    "url" : "http://codepen.io/dlagrone/full/zKjPgp/",
+    "git" : "https://gist.github.com/dwightlagrone1971/2b6236c3e4dfe300e74ecfd5a8964842",
+    "Tools" : ["HTML", "CSS", "Javascript", "JQuery", "API's"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+
+  { 
+    "title" : "Wikipedia Viewer",
+    "number" : 4,
+    "author" : "Dwight LaGrone",
+    "description" : "Build an and use Wikipedia api.",
+    "image" : "wikiviewer.jpg",
+    "url" : "https://codepen.io/dlagrone/full/JRvajk/",
+    "git" : "https://gist.github.com/anonymous/a0ef434b12d81809a8cf498f395c1f8b",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery", "Wiki's API"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+
+  {
+    "title" : "Twitch.tv Viewer",
+    "number" : 5,
+    "author" : "Dwight LaGrone",
+    "description" : "Build an app that show online, offline and all twitch tv users.",
+    "image" : "twitch.jpg",
+    "url" : "http://codepen.io/dlagrone/full/BLOGVA/",
+    "git" : "https://gist.github.com/dwightlagrone1971/985301913c035223e8d87d0730cb50b7",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery", "API's"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+
+  {
+    "title" : "Javascript Calculator",
+    "number" : 6,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a javascript calulator that adds, deletes, times and divides.",
+    "image" : "calculator.jpg",
+    "url" : "http://codepen.io/dlagrone/full/xErNyd/",
+    "git" : "https://gist.github.com/dwightlagrone1971/d8d82d5bd296145e57a1b415acff23e0",
+    "Tools" : ["HTML", "CSS", "Javascript", "JQuery"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Pomodoro Clock",
+    "number" : 7,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a pomodoro clock that starts a user set time and counts down.",
+    "image" : "pomodoro.jpg",
+    "url" : "http://codepen.io/dlagrone/full/zoKeGR/",
+    "git" : "https://gist.github.com/dwightlagrone1971/c61648dadf6aeaf2925615d380169246",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Tic-Tac-Toe Game",
+    "number" : 8,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a tic-tac-toe game.",
+    "image" : "tic-tac-toe.jpg",
+    "url" : "https://codepen.io/dlagrone/full/vyGYYW/",
+    "git" : "https://gist.github.com/dwightlagrone1971/7857d49e0362ea955fb951a82c8d2582",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Simon Game",
+    "number" : 9,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a simon game in regular and strict mode.",
+    "image" : "simon.jpg",
+    "url" : "https://codepen.io/dlagrone/full/zNEJrb/",
+    "git" : "https://gist.github.com/dwightlagrone1971/a9bc000db057cf7c01510a7b29f0d41b",
+    "tools" : ["HTML", "CSS", "Javascript", "JQuery"],
+    "texteditors" : "Code Pen",
+    "type" : "Front end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Timestamp",
+    "number" : 10,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a timestamp microservice.  Enter a date and return to use the date  in regular and unix formats",
+    "image" : "timestamp.jpg",
+    "url" : "https://calm-castle-75575.herokuapp.com/",
+    "git" : "https://github.com/dwightlagrone1971/timestamp-api",
+    "tools" : ["HTML", "CSS", "Javascript", "GIT", "Heroku", "Express JS", "Node JS"],
+    "texteditors" : "Cloud9",
+    "type" : "Back end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Request Header Parser",
+    "number" : 11,
+    "author" : "Dwight LaGrone",
+    "description" : "Build a Request Header Parser Microservice.",
+    "image" : "requestheaderparser.jpg",
+    "url" : "https://nameless-river-50479.herokuapp.com/",
+    "git" : "https://github.com/dwightlagrone1971/request_header_parser",
+    "tools" : ["HTML", "CSS", "Javascript", "GIT", "Heroku", "Express JS", "Node JS"],
+    "texteditors" : "Cloud9",
+    "type" : "Back end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Url Shortener",
+    "number" : 12,
+    "author" : "Dwight LaGrone",
+    "description" : "Build URL Shortener Microservice.  Enter a url and return a shortened url.  Click on shortened url and go to orginal url.",
+    "image" : "urlshortner.jpg",
+    "url" : "https://pure-cove-14444.herokuapp.com/",
+    "git" : "https://github.com/dwightlagrone1971/url_shortener_microservice",
+    "tools" : ["HTML", " CSS", " Javascript", " GIT", " Heroku", " Express JS", " Node JS"],
+    "texteditors" : "Cloud9",
+    "type" : "Back end development",
+    "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "Image Search Abstraction Layer",
+    "number" : 13,
+    "author" : "Dwight LaGrone",
+    "description" : " Get image url's from Imgur Image API.  Return a list of the latest searches. Paginate through the responses by adding a ?offset=2 parameter to the URL.",
+    "image" : "image-search.jpg",
+    "url" : "https://nameless-ocean-40330.herokuapp.com/",
+    "git" : "https://github.com/dwightlagrone1971/image_search",
+    "tools" : ["HTML", " CSS", " Javascript", " GIT", " Heroku", " Express JS", " Node JS", "Imgur API"],
+    "texteditors" : "Cloud9",
+    "type" : "Back end development",
+    "credits" : "Free Code Camp"
+  }]
+
+}

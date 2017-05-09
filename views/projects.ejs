@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <% include partials/head.ejs %>
+        
+    </head>
+    <body>
+        <div class="container" id="bg">
+            <nav id="navbar" class="row">
+                <ul id="nav-list">
+                    <li class="nav1" id="name">Dwight LaGrone</li>
+                    <li class="nav1"><a href="/">Welcome</a></li>
+                    <li class="nav1"><a href="professional">Professional</a></li>
+                    <li class="nav1"><a href="projects">Portfolio</a></li>
+                    <li class="nav1"><a href="mailto:dwightl@ci.sherman.tx.us?Subject=Hello%20again" target="_top">Contact</a></li>
+                </ul>
+            </nav>
+            <div id="project-page">
+                <div>
+                    <h5  id="project-title">My Projects</h5>
+                </div>
+                <div id="project-wrapper">
+                
+                    <% for (var i = 0; i < projects.length; i++) { %>
+                        
+                        <a href="/project_page/<%= projects[i].number %>">    
+                                    
+                            
+                            <div class="project">
+                                    
+                                <img src="/images/<%= projects[i].image %>" class="img-responsive">
+                                            
+                                <div class="project-overlay">
+        			  		        <h3><%= projects[i].title %></h3>
+        			  		        <h4>View More <i class="fa fa-arrow-right"></i></h4>
+        			  	        </div>
+                                            
+                                          
+                            </div>
+                                    
+                        </a> 
+                            
+                    <% } %>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <% include partials/scripts.ejs %>
+        
+    </body>
+    
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <% include partials/head.ejs %>
+        
+    </head>
+    <body onload="move()">
+        <div class="container" id="bg">
+            <nav id="navbar" class="row">
+                <ul id="nav-list">
+                    <li class="nav1" id="name">Dwight LaGrone</li>
+                    <li class="nav1"><a href="/">Welcome</a></li>
+                    <li class="nav1"><a href="professional">Professional</a></li>
+                    <li class="nav1"><a href="projects">Portfolio</a></li>
+                    <li class="nav1"><a href="mailto:dwightl@ci.sherman.tx.us?Subject=Hello%20again" target="_top">Contact</a></li>
+                </ul>
+            </nav>
+        <div id="professional">
+        	<div>
+        		<h3 id="prof-title">Software Knowledge</h3>
+        		<div>
+        		    <table id="myTable">
+        		        <tr>
+        		            <th id="first">Software</th>
+        		            <th id="second">Experience</th>
+        		            <th id="third">Percent</th>
+        		        </tr>
+        		        <tr>
+        		            <td>Javascript</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr> 
+        		        <tr>
+        		            <td>CSS</td>
+        		            <td>
+        		                <div class="green"></div>    
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>HTML</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr> 
+        		        <tr>
+        		            <td>Bootstrap</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>JQuery</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>Nodejs</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>GIT</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>GIS Server</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>90%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>CGeodatabases</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>90%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>ESRI Software</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>90%</td>   
+        		        </tr>
+        		        <tr>
+        		            <td>ArcGIS Online</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>90%</td>   
+        		        </tr>
+            		     <tr>
+        		            <td>SQL Server</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>90%</td>   
+        		        </tr>
+        		         <tr>
+        		            <td>Agile</td>
+        		            <td>
+        		                <div class="green"></div>
+        		            </td>
+        		            <td>30%</td>   
+        		        </tr>
+        		    </table>        
+        		</div>
+        	</div>
+            <div class="social">
+                <div class="btn-group button-group-md">
+            	    <a href="https://www.facebook.com/" type="button" class="btn btn-primary" target="_blank">Facebook</a>
+            		<a href="https://twitter.com/?lang=en" type="button" class="btn btn-primary" target="_blank">Twitter</a>
+            		<a href="https://www.instagram.com/?hl=en" type="button" class="btn btn-primary" target="_blank">Instagram</a>
+            		<a href="https://github.com" type="button" class="btn btn-primary" target="_blank">Github</a>
+            	</div>
+            </div>
+        </div>
+              
+            <% include partials/scripts.ejs %>
+            <script>
+                function move() {
+                    var elem = document.getElementById("javascript");   
+                    var width = 1;
+                    var id = setInterval(frame, 10);
+                    function frame() {
+                        if (width >= 100) {
+                            clearInterval(id);
+                        } else {
+                            width++; 
+                            elem.style.width = width + '%'; 
+                        }
+                    }
+                }    
+                
+            </script>
+            
+        </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <% include partials/head.ejs %>
+    </head>
+    <body>
+        
+        <div class="container page">
+            
+            <div  id="page-image">
+                <img src="/images/<%= project.image %>" class="img-responsive page-image">
+            </div>
+            
+            <div id="page-desc-wrapper">
+                
+                <h1 id="page-title"><%= project.title %></h1>    
+            
+                <div class="page-desc">
+                    <h2 class="page-header">Project number: </h2>
+    			    <P><%= project.number %></p>
+    			</div>
+                <div class="page-desc">
+                    <h2 class="page-header">Description: </h2>
+                    <p><%= project.description %></p>
+    			</div>	
+    			<div class="page-desc">
+                    <h2 class="page-header">Application URL: </h2>
+    			    <a href="<%= project.url %>">Click to go to application</a>
+    			</div>	
+    			<div class="page-desc">
+                    <h2 class="page-header">GIT: </h2>
+    			    <a href="<%= project.git %>">Click to go to GIT/GIST repository</a>
+    			</div>	
+    			<div class="page-desc">
+                    <h2 class="page-header">Text Editors: </h2>
+    			    <p><%= project.texteditors %></p>
+    			</div>
+    			<div class="page-desc">
+                    <h2 class="page-header">Tools: </h2>
+    			    <p><%= project.tools %></p>
+    			</div>
+    			<div class="page-desc">
+                    <h2 class="page-header">Type: </h2>
+    			    <p><%= project.type %></p>
+    			</div>
+    			<div class="page-desc">
+                    <h2 class="page-header">Credit: </h2>
+    			    <p><%= project.credits %></p>
+    			</div>	       
+        
+            </div>
+      
+        
+        
+        
+            
+        
+    <% include partials/scripts.ejs %>
+    
+  </body>
+</html>

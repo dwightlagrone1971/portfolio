@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      
+      <% include partials/head.ejs %>
+      
+    </head>
+    <body style="background: #6F7A8A">
+      <div class="container" id="bg">
+        <nav id="navbar" class="row">
+          <ul id="nav-list">
+            <li class="nav1" id="name">Dwight LaGrone</li>
+            <li class="nav1"><a href="/">Welcome</a></li>
+            <li class="nav1"><a href="professional">Professional</a></li>
+            <li class="nav1"><a href="projects">Portfolio</a></li>
+            <li class="nav1"><a href="mailto:dwightl@ci.sherman.tx.us?Subject=Hello%20again" target="_top">Contact</a></li>
+          </ul>
+        </nav>
+        <div id="main" class="col.md-6 row">
+          <div>
+            <img id="myImage" src="images/dwight-gray.png" alt="GIS Globe Image">     
+          </div>
+          <div id="welcome" class="row">
+      	    <div>
+    			    <h3 id="bio" class="bio">Welcome</h3>
+  				    <ul class="bio-desc">
+      					<li>Currently GIS Manager for the City of Sherman, Texas.</li>
+      					<li>More than 22 years of experience in Geographic Information System (GIS) and Global Positioning Systems (GPS).</li>
+      					<li>Strong background and hands on in ESRI Enterprise GIS Systems design, implementation, and administration.</li>
+      					<li>My passion is using GIS Web Development to better offer solutions for my customers.</li>
+      					<li>Self-taught web designer/developer.</li>
+  				    </ul>
+    		      <h3 id="skills" class="bio">Skills:</h3>
+        			<ul class="bio-desc">
+        		   	<li>ESRI Software, GIS Server, Geodatabases, ArcGIS Online.</li> 
+        				<li>Google Maps API. Google Maps Engine.</li>
+        				<li>SQL Server.</li>
+        				<li>Javascript, Python, HTML5, CSS, JQuery, Bootstrap3, nodejs, express js</li>
+        				<li>Git, Web Design, Agile</li>
+        			</ul>
+          </div>
+        </div>
+      </div>
+      
+        <% include partials/scripts.ejs %>
+        
+   </div>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+body {
+  background-image: url("/images/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+#body-prof {
+  background-image: url("/images/technology.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.container {
+  margin: auto;
+  width: 100%;
+}
+#navbar {
+  background-color: black;
+  display: inline-block;
+  width: 2000px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  opacity: 0.7;
+}
+#navbar li a:hover {
+  color: yellow !important;
+  background-color: black;
+}
+#name {
+  font-family: cursive;
+  font-size: 30px;
+  color: #ffffff;
+  padding-right: 200px;  
+}
+#nav-list {
+  padding: 15px;
+  margin-left: 400px;
+  width: 1400px; 
+}
+.nav1 {
+  padding-right: 40px;
+}
+bng {
+  font-size: 20px;
+}
+.page {
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+#li-about {
+  margin: auto;
+  text-align: left;
+}
+#about-img {
+  margin-top: 100px;
+  width: 300px; 
+  height: 300px;
+  float: left;
+  padding: 20px;
+  border-radius: 100%;
+}
+.nav1 {
+  display: inline;
+}
+h3 {
+  color: #fff;
+  background: rgba(0,0,0,0.7);
+  font-size: 20px;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+h5 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+/* Welcome Page */
+
+#myImage {
+  height: 1000px;
+  padding-left: 100px;
+  margin-bottom: 50px;
+  opacity: 0.7;
+  float: left;
+  clear: none; 
+}
+#welcome {
+  display: inline-block;
+  width: 1000px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 15px;
+}
+#bio {
+  font-size: 27px;
+  font-family: Impact;
+}
+.bio-desc {
+  font-size: 15px;
+}
+
+/* professional Page */
+
+#javacript {
+  width: 500px;
+  background-color: grey;
+}
+.myBar {
+  height: 15px;
+  text-align: left;
+  background-color: #00D646;
+}
+.bar-container {
+  margin-left: 30px;
+}
+.percent {
+  color: #fff;
+  padding-left: 20px; 
+  text-align: left;
+  font-size: 20px;
+}
+.software-txt {
+  color: #fff;
+  text-align: right;
+  font-size: 20px;
+}
+#professional {
+  text-align: left;
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+#prof-title {
+  color: #fff;
+  font-size: 30px;
+  font-family: Impact;  
+}
+#first {
+  
+  width: 150px;
+  text-align: right;
+
+}
+#second {
+  width: 20px;
+  text-align: middle;
+}
+#third {
+  width: 1000px;
+  text-align: center;
+}
+th {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.green {
+  border: 1px solid green;
+  background-color: green;
+  margin-left: 10px;
+  width: 5px;
+  height: 12px;
+}
+.btn {
+  background-color: #09359C;
+  border-radius: 20px;
+  border: 2px outset #7B95D0;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 30px;
+}
+.social {
+  text-align: center;
+}
+
+/* Project Page */
+
+#project-page {
+  width: auto;
+  height: auto;
+  margin: auto; 
+  padding: 0;
+} 
+#project-wrapper {
+  overflow: auto;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+}
+.project {
+  position: relative;
+	display: inline-block;
+	height: 400px;
+  width: 400px;
+  float: left;
+}
+ #project-title {
+  font-family: cursive;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 50px;
+}
+.project-overlay {
+	position: absolute;
+	background: rgba(0,0,0,0.7);	
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	padding: 30px 50px;
+}
+.project-overlay h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;
+}
+.project-overlay h4 {
+	text-transform: uppercase;
+	font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;	
+  margin-top: 15px;
+}
+.project:hover .project-overlay {
+  border: 5px ridge #897D7D;
+	opacity: 1;
+}
+
+/* Project Single Page Styles */
+
+#page-image {
+  display: inline;
+}
+.page-image {
+  width: 150px; 
+}
+#page-desc-wrapper {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: -150px;
+}
+#page-title {
+  font-family: cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.page-desc {
+  text-align: left;
+  padding-left: -100px;
+  padding-bottom: 20px;
+  clear: both;
+}
+.page-header {
+  font-size: 18px;
+  padding: 5px;
+  display: inline;
+}
+p {
+  font-size: 14px;
+  display: inline;
+}
+
+
