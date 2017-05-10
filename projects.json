@@ -179,6 +179,20 @@
     "texteditors" : "Cloud9",
     "type" : "Back end development",
     "credits" : "Free Code Camp"
+  },
+  
+  {
+    "title" : "File Metadata Microservice",
+    "number" : 14,
+    "author" : "Dwight LaGrone",
+    "description" : "I can submit a FormData object that includes a file upload.  When I submit something, I will receive the file size in bytes within the JSON response.",
+    "image" : "filemetadata.jpg",
+    "url" : "https://dashboard.heroku.com/apps/sleepy-oasis-30582",
+    "git" : "https://github.com/dwightlagrone1971/file_metadata-_size",
+    "tools" : ["HTML", " CSS", " Javascript", " GIT", " Heroku", " Express JS", " Node JS"],
+    "texteditors" : "Cloud9",
+    "type" : "Back end development",
+    "credits" : "Free Code Camp"
   }]
 
 }
