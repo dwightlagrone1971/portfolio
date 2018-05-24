@@ -20,7 +20,6 @@ app.get('/project_page/:page_number?', routes.project_page);
 
 app.get('*', routes.error);
 
-
 app.listen(port, function() {
     console.log("Server started on port: " + port + ".......");
-})
+});

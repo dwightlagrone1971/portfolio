@@ -120,3 +120,16 @@ function move9() {
       }
    }
 }
+function move10() {
+    var elem2 = document.getElementById("myBar10"); 
+    var width = 1;
+    var id = setInterval(frame, 10);
+    function frame() {
+      if (width >= 40) {
+        clearInterval(id);
+      } else {
+         width++; 
+         elem2.style.width = width + '%'; 
+      }
+   }
+}
